@@ -6,6 +6,8 @@ public class Movement : MonoBehaviour
     [SerializeField] float mainThrust = 100f;
     [SerializeField] float rotateThrust = 100f;
     [SerializeField] AudioClip mainEngine;
+    [SerializeField] ParticleSystem mParticalThrust
+
 
     //  CACHE - e.g. references for readability or speed
     Rigidbody rb;
